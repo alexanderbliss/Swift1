@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C516E8321701028009A1B08 /* TasksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C516E8221701028009A1B08 /* TasksController.swift */; };
 		1C7EB7DF216D7718005FA6D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7EB7DE216D7718005FA6D7 /* AppDelegate.swift */; };
 		1C7EB7E1216D7718005FA6D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7EB7E0216D7718005FA6D7 /* ViewController.swift */; };
 		1C7EB7E4216D7718005FA6D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7EB7E2216D7718005FA6D7 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		1C7EB7E9216D7719005FA6D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7EB7E7216D7719005FA6D7 /* LaunchScreen.storyboard */; };
 		1C7EB7F4216D7719005FA6D7 /* Seminar_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7EB7F3216D7719005FA6D7 /* Seminar_demoTests.swift */; };
 		1C7EB7FF216D7719005FA6D7 /* Seminar_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7EB7FE216D7719005FA6D7 /* Seminar_demoUITests.swift */; };
+		1C7EB80D216D81A9005FA6D7 /* CalculatorControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7EB80C216D81A9005FA6D7 /* CalculatorControllerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C516E8221701028009A1B08 /* TasksController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksController.swift; sourceTree = "<group>"; };
 		1C7EB7DB216D7718005FA6D7 /* Seminar demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seminar demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7EB7DE216D7718005FA6D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C7EB7E0216D7718005FA6D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		1C7EB7FA216D7719005FA6D7 /* Seminar demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Seminar demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7EB7FE216D7719005FA6D7 /* Seminar_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seminar_demoUITests.swift; sourceTree = "<group>"; };
 		1C7EB800216D7719005FA6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C7EB80C216D81A9005FA6D7 /* CalculatorControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorControllerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		1C7EB7D2216D7718005FA6D7 = {
 			isa = PBXGroup;
 			children = (
+				1C516E8221701028009A1B08 /* TasksController.swift */,
 				1C7EB7DD216D7718005FA6D7 /* Seminar demo */,
 				1C7EB7F2216D7719005FA6D7 /* Seminar demoTests */,
 				1C7EB7FD216D7719005FA6D7 /* Seminar demoUITests */,
@@ -99,6 +104,7 @@
 			children = (
 				1C7EB7DE216D7718005FA6D7 /* AppDelegate.swift */,
 				1C7EB7E0216D7718005FA6D7 /* ViewController.swift */,
+				1C7EB80C216D81A9005FA6D7 /* CalculatorControllerViewController.swift */,
 				1C7EB7E2216D7718005FA6D7 /* Main.storyboard */,
 				1C7EB7E5216D7719005FA6D7 /* Assets.xcassets */,
 				1C7EB7E7216D7719005FA6D7 /* LaunchScreen.storyboard */,
@@ -187,6 +193,9 @@
 		1C7EB7D3216D7718005FA6D7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					Calculator,
+				);
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Alexander Bliss";
@@ -256,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C7EB80D216D81A9005FA6D7 /* CalculatorControllerViewController.swift in Sources */,
 				1C7EB7E1216D7718005FA6D7 /* ViewController.swift in Sources */,
+				1C516E8321701028009A1B08 /* TasksController.swift in Sources */,
 				1C7EB7DF216D7718005FA6D7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
